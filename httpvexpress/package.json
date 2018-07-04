@@ -1,0 +1,12 @@
+{
+  "name": "httpvexpress",
+  "version": "1.0.0",
+  "description": "Dif between http and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kachyz",
+  "license": "ISC"
+}

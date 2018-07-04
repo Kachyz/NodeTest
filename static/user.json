@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "Kachyz",
+      "email": "mymail@kachyz.com",
+      "role": "admin"
+    },
+    {
+      "username": "Israel",
+      "email": "mymail@israel.com",
+      "role": "admin"
+    },
+    {
+      "username": "Pepe",
+      "email": "mymail@pepe.com",
+      "role": "admin"
+    }
+  ]
+}
