@@ -23,8 +23,8 @@ app.use('/users', (req, res) => {
 app.post('/user', (req, res) => {
   const user = req.body.user //Recibimos un 'user' con el metodo post
 
-  if('username' in user && user.username.length > 0){
-    if('email' in user && user.email.length > 0){
+  if('username' in user && user.username !== ''){
+    if('email' in user && user.email !== ''){
       users.push(user)
       res.send(user)
     } else 
