@@ -1,0 +1,82 @@
+body{
+    border:0px;
+    margin: 0px;
+    background-color: lightgray;
+}
+
+nav{
+    background-color: rgb(28, 50, 138);
+    color:white;
+    padding: 10px;
+}
+
+nav h4{
+     margin:0px;
+     display: inline-block;
+}
+
+nav img{
+    float: right;
+    width: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+nav p{
+    padding-top: 3px;
+    float: right;
+    margin: 0px;
+}
+
+.container{
+    padding: 16px;
+    width: 100%;
+}
+
+.white-box{
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+}
+
+.newPost{
+    padding: 16px;
+    text-align: right;
+}
+
+.newPost textarea{
+    border: 0px;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.newPost button{
+    border-radius: 5px;
+}
+
+.post{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-head{
+    width: 100%;
+    padding: 5px;
+}
+
+.post-head h5{
+    margin:0px;
+    display: inline-block;
+    padding-top: 3px;
+}
+.post-head img{
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.post-body{
+    margin-top: 20px;
+}

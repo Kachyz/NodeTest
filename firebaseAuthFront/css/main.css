@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.login{
+    background-color: white;
+    border-radius: 5px;
+    padding:5px;
+    margin-top: 20vh;
+}
+
+.login p{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.login a{
+    color:rgb(101, 183, 208);
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.email-login{
+    width: 100%;
+    padding: 16px;
+}
+
+.email-login input{
+    display: block;
+    margin-bottom: 16px;
+    border:0px;
+    border-bottom: 1px solid gray;
+}
+
+.centrado{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+.separator{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.auth-btn{
+    border-radius: 5px;
+    width:60%;
+    padding:10px;
+    color:white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.auth-btn:hover{
+    box-shadow: rgba(0,0,0,0.5) 2px 2px 2px;
+}
+
+.auth-btn i{
+    margin-right: 10px;
+}
+
+.google-login{
+   background-color: blue;
+}
+
+.facebook-login{
+    background-color:rgb(0, 94, 255);
+}
+
+.github-login{
+    background-color:black;
+}
+
