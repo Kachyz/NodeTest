@@ -39,6 +39,7 @@ bookRouter.put('/:bookId', (req, res) => {
     }
     result.title = req.body.title
     result.desc = req.body.desc
+    result.image = req.body.image
     result.save()
     res.status(201).send(result)
   })
