@@ -7,8 +7,8 @@ import AppBar from './components/appbar'
 import Card from './components/card'
 // import Search from './components/Search'
 
-import Tacocat from './images/tacocat.jpg'
-import Img2 from './images/xxx.jpg'
+// import Tacocat from './images/tacocat.jpg'
+// import Img2 from './images/xxx.jpg'
 
 class App extends Component {
 
@@ -27,8 +27,9 @@ class App extends Component {
       .then( resp => {
         console.log('La respuesta del server:', resp)
         this.setState({libros: resp.data})
-      }).catch( err => {
-        console.log('ERROR -',err)
+      })
+      .catch( err => {
+        console.log('ERROR -', err)
       })
   }
 
@@ -74,10 +75,12 @@ class App extends Component {
         { 
           librosFiltrados.map(libro =>{
             return <Card
-              key={libro._id}
-              title={libro.title}
-              desc={libro.desc}
-              image= {libro.image}
+              key = {libro._id}
+              id = {libro._id}
+              title = {libro.title}
+              desc = {libro.desc}
+              image = {libro.image}
+              history = {this.props.history}
             />
           })
         }
