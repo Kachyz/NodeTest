@@ -1,5 +1,5 @@
 var config = {
-  apiKey: "AIzaSyACw5LBUOiYPTa6-VginJQMC2G2uij0_M0",
+//  apiKey: "",
   authDomain: "post-8888.firebaseapp.com",
   databaseURL: "https://post-8888.firebaseio.com",
   projectId: "post-8888",
